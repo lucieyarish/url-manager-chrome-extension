@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-input {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #8E05C2;
+    line-height: 21px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-width: 2px;
+}
+
+.link-input, .save-btn {
+    border-radius: 3px;
+}
+
+.save-btn {
+    color: #FFF;
+    background-color: #8E05C2;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    font-weight: bold;
+}
