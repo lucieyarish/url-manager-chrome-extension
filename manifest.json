@@ -4,6 +4,6 @@
     "name": "URL Manager",
     "action": {
         "default_popup": "index.html",
-        "default_icon": "css/bookmark-icon.png"
+        "default_icon": "css/icons/bookmark-icon.png"
     }
 }
