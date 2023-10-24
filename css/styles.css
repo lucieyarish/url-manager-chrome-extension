@@ -2,12 +2,15 @@ body {
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 400px;
+    min-width: 400px;
     box-sizing: border-box;
 }
 
+input, .btns-container {
+    width: 90%;
+}
+
 .link-input {
-    width: 100%;
     padding-left: 10px;
     padding-right: 10px;
     border: 1px solid #8E05C2;
@@ -24,7 +27,6 @@ input:focus {
 
 .btns-container {
     margin-top: 8px;
-    min-width: 400px;
     display: flex;
 }
 
