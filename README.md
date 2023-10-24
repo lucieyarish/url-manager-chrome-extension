@@ -2,7 +2,7 @@
 
 📁 Chrome extension for saving URLs. Option to choose between saving the currently opened tab and inserting the desired link.
 
-![GIF of the finished URL Manager Chrome Extension](./url-manager-showcase.gif)
+![GIF of the finished URL Manager Chrome Extension](./url-manager-showcase.mov)
 
 ## About the project
 
