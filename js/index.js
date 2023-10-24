@@ -1,6 +1,7 @@
 let myLinks = [];
 const inputEl = document.getElementById('input-el');
 const saveBtn = document.getElementById('save-btn');
+const tabBtn = document.getElementById('tab-btn');
 const deleteBtn = document.getElementById('delete-btn');
 const ulEl = document.getElementById('ul-el');
 
@@ -30,6 +31,14 @@ saveBtn.addEventListener('click', function () {
   inputEl.value = '';
   localStorage.setItem('myLinks', JSON.stringify(myLinks));
   render(myLinks);
+});
+
+tabBtn.addEventListener('click', function () {
+  chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+    myLinks.push(tabs[0].url);
+    localStorage.setItem('myLinks', JSON.stringify(myLinks));
+    render(myLinks);
+  });
 });
 
 deleteBtn.addEventListener('dblclick', function () {
