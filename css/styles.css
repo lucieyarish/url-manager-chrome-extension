@@ -11,25 +11,35 @@ body {
     padding-right: 10px;
     border: 1px solid #8E05C2;
     line-height: 21px;
-    box-sizing: border-box;
 }
 
 input:focus {
-    outline: none;
-    border-width: 2px;
+    outline: 1.5px solid #8E05C2;
+    box-sizing: border-box;
 }
 
-.link-input, .save-btn {
+.link-input, button {
     border-radius: 3px;
 }
 
-.save-btn {
+.btns-container {
+    margin-top: 8px;
+}
+
+.btns-container button  {
+    font-weight: bold;
+    border: 1px solid #8E05C2;
+    padding: 5px 10px;
+}
+
+.btn-primary {
     color: #FFF;
     background-color: #8E05C2;
-    border: none;
-    padding: 5px 10px;
-    margin-top: 5px;
-    font-weight: bold;
+}
+
+.btn-secondary {
+    color: #8E05C2;
+    background-color: #FFF;
 }
 
 ul {
