@@ -2,10 +2,6 @@
 
 📁 Chrome extension for saving URLs. Option to choose between saving the currently opened tab and inserting the desired link.
 
-<video width="320" height="240" controls>
-  <source src="./url-manager-showcase.mov" type="video/mp4">
-</video>
-
 ## About the project
 
 While working on this project via Scrimba's Frontend Developer Career Path, I learned/practiced some of the very important JavaScript concepts:
