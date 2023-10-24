@@ -3,9 +3,17 @@ const inputEl = document.getElementById('input-el');
 const inputBtnEl = document.getElementById('input-btn');
 const ulEl = document.getElementById('ul-el');
 
+let linksFromLocalStorage = JSON.parse(localStorage.getItem('myLinks'));
+
+if (linksFromLocalStorage) {
+  myLinks = linksFromLocalStorage;
+  renderLinks();
+}
+
 inputBtnEl.addEventListener('click', function () {
   myLinks.push(inputEl.value);
   inputEl.value = '';
+  localStorage.setItem('myLinks', JSON.stringify(myLinks));
   renderLinks();
 });
 
