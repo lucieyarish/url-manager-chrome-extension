@@ -1,8 +1,10 @@
+
+https://github.com/lucieyarish/url-manager-chrome-extension/assets/79669599/83d4cf8f-73ec-4d7d-944e-5bebb137c224
 # URL Manager Chrome Extension
 
 📁 Chrome extension for saving URLs. Option to choose between saving the currently opened tab and inserting the desired link.
 
-![](./url-manager-showcase.mp4)
+https://github.com/lucieyarish/url-manager-chrome-extension/assets/79669599/0aa3b8bd-d9d4-436c-8040-f098c33dc3da
 
 ## About the project
 
